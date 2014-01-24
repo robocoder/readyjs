@@ -1,0 +1,10 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url:              'http://localhost/'
+            goutte:                ~
+            selenium2:             ~
+            default_session:       goutte
+            javascript_session:    selenium2
+
